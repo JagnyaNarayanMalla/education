@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <form action="mailto:malla.gov.in@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend><b>CONTACT DETAILS</b></legend>
+            <!-- Form input values -->
+            <label>Your Name</label>
+            <input type="text" value=" your name" required><br>
+            <label>Email</label>
+            <input type="email" value="your email" required><br>
+            <label>Gender</label>
+            <input type="radio" value="Male" name="Male" required>Male
+            <input type="radio" value="Female" name="Male" required>Female<br>
+            <label>Date of birth</label>
+            <input type="date" required><br>
+            <lebel>Phone</lebel>
+            <input type="tel" minlength="10" maxlength="10" placeholder="+91" required><br>
+            <label>Do you want to subscription?</label>
+            <input type="checkbox">yes<br>
+            <label>Upload your resume</label>
+            <input type="file"><br>
+            <label>Your experience</label>
+            <input type="range" minlength="0" maxlength="10"><br>
+            <label>Enter your message</label>
+            <textarea name="name" rows="2" cols="10" placeholder="this is text area" readonly></textarea><br>
+            <input type="submit" required>
+        </fieldset>
+    </form>
+</body>
+</html>
